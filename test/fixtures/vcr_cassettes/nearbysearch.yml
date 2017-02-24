@@ -1,0 +1,332 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=%20AIzaSyD_4PGQ5vEroNxwiy5OXlVH8X_G7hXcbL6%20&location=37.402079,-122.108896&radius=800&type=gym
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 30
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 24 Feb 2017 21:18:07 GMT
+      Expires:
+      - Fri, 24 Feb 2017 21:23:07 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - pablo
+      Content-Length:
+      - '3601'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="35,34"
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 37.40375879999999,
+                       "lng" : -122.1085309
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.40510778029149,
+                          "lng" : -122.1071819197085
+                       },
+                       "southwest" : {
+                          "lat" : 37.40240981970849,
+                          "lng" : -122.1098798802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "6ba4c3e4cd1494aca3abe06c98b350941bf10868",
+                 "name" : "24 Hour Fitness",
+                 "opening_hours" : {
+                    "exceptional_date" : [],
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 540,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/110466103979233042251/photos\"\u003eAstrid Bernaga\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CoQBdwAAAPDMnxd1DqhNLvI9Hw9lLQChQg-uDe_OWnXeSN1kIk0TI3WtyOGwi3brSPXXjeon8NXouKGvzlTSLviINVmRDmQi-1d1uQgBUcPa8taEXAaf05cOaEG6SwayQhOJ_rT97ATgdcCUWauQUOmt_qO4iGb3dRprfxgbvdJIkYcY2o10EhAbE2J05cut52lzGAJ98Il6GhTb46kz0PukY8AM1I-sJlYCiQzOeQ",
+                       "width" : 960
+                    }
+                 ],
+                 "place_id" : "ChIJ09uLP5-wj4ARKEnLyKyh7YQ",
+                 "rating" : 2.9,
+                 "reference" : "CmRSAAAATkQ_cH6PAG2PQoHd7jJ_sruzaj6trqQxVvy8NsA4v3OsZgLe8A1Q1oEffrdD_Dedb5zb3tgwUDC2pxk1PUb6VqE0qgLb6Tc7HdnarucQoMlaSykXNYzCxjZ5vggSMXEuEhD-0YkZbN6kbKHkGMWKLoNDGhSqRPPDoR2eKpuoz7Jp0J9oYH5BJg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+                 "vicinity" : "2535 California Street, Mountain View"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 37.402537,
+                       "lng" : -122.1095753
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.4038859802915,
+                          "lng" : -122.1082263197085
+                       },
+                       "southwest" : {
+                          "lat" : 37.4011880197085,
+                          "lng" : -122.1109242802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "bc642e82d904f789d534d5eff0f94b824d9215a0",
+                 "name" : "24 Hour Fitness",
+                 "opening_hours" : {
+                    "exceptional_date" : [],
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "place_id" : "ChIJxevLLZmwj4ARkA3OHUAuby0",
+                 "rating" : 2.8,
+                 "reference" : "CmRRAAAAN1pjEf0U7FnRJ9GN-zk6kewm-FeVv005kfgcoJ3Rbu56Fmmj5scUtZDDY1KC0zTBSHKLS5EV-QNdY6BVyBBR3ueqkJX3tnmO3w3f9IOIl3eDtpCkdRcDCLFjlXzyaTEOEhATIxv3EsrGH-yve9lM_2DZGhQ2B6eVCTRS6PFxZU5FVUEnb75P5w",
+                 "scope" : "GOOGLE",
+                 "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+                 "vicinity" : "550 Showers Drive, Mountain View"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 37.3987274,
+                       "lng" : -122.1133541
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.4001876302915,
+                          "lng" : -122.1121161197085
+                       },
+                       "southwest" : {
+                          "lat" : 37.3974896697085,
+                          "lng" : -122.1148140802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "14a427efd549445669944369de3a98a62b136e14",
+                 "name" : "Esprit de Core Pilates Studio",
+                 "photos" : [
+                    {
+                       "height" : 1536,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112408918978840383413/photos\"\u003eEsprit de Core Pilates Studio\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CoQBdwAAAGId1poXbjKoJO6pTP7hyKkZm-TsYx3_PUH58tCYm3cavq1UU-_HjUzW3lps4HEpqzk8xtojw8q4xw0LZxtb5nbMyur-s3nIL4ZoZIP9KxBx6TSJ0AHwjYUsW5_n_LxRWBu_HdZtbrZmTIi_C6ACyiH3jfQvvPZpaTlZL1959ydPEhBl7-rYt3eJW7nYe54nn4GgGhQUkXPvaQmWGgrnIkouTrbUoZyo2g",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJu8zLN5qwj4ARLyo9wtF8FHE",
+                 "rating" : 5,
+                 "reference" : "CmRRAAAAncXQqNDTGtBAgqE4Cr27obeskhrZ34OkX9NvVjzeRouEuQCJwMeukjdGdhjIo3alxkvCeD7EK4ZIOlmlBQjJLIkGJG2gUi1DcbdE2tw4dFO92RKXVC_tQKZrhym2IKUKEhDbHFGivWdSf_NMFBXFlMGOGhSEHWNCv54_h4EY9GdC0JK4BQ8Cow",
+                 "scope" : "GOOGLE",
+                 "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+                 "vicinity" : "895 Sherwood Avenue #300, Los Altos"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 37.397044,
+                       "lng" : -122.1040836
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.3982993802915,
+                          "lng" : -122.1027986697085
+                       },
+                       "southwest" : {
+                          "lat" : 37.3956014197085,
+                          "lng" : -122.1054966302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "4ec40bb7fe5dfa3ef6eed7f34c894ed1b2a8da5e",
+                 "name" : "Elite Physiques Personal Training",
+                 "place_id" : "ChIJVej6qL2wj4ARjoQ6qcgQq-I",
+                 "rating" : 4.3,
+                 "reference" : "CmRSAAAAiuJG8NDkAZEBdnJAgyMxxHFb0Ow5YuNiD7xwdf4pzTGHl5srnkrGaYGBl-odk0ldtGYmXMe2p_n3tSjoRMOGIr0aDZLqurY1osBnYPI3pwSkDODVoNp2Dz_JuhB820GqEhAmRMbMGq4qY60W6EaokSr_GhQOUxjmUEG6-_IbziyxALdPZFeruQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+                 "vicinity" : "2268 El Camino Real, Mountain View"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 37.3996282,
+                       "lng" : -122.1112228
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.4010736802915,
+                          "lng" : -122.1097990697085
+                       },
+                       "southwest" : {
+                          "lat" : 37.3983757197085,
+                          "lng" : -122.1124970302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "0a42d54c5379744bd592d0dd48bd248170186685",
+                 "name" : "barre3 Los Altos",
+                 "opening_hours" : {
+                    "exceptional_date" : [],
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "place_id" : "ChIJ8yBHnJmwj4AR6OETqP8zj2U",
+                 "rating" : 5,
+                 "reference" : "CmRRAAAAU29BSETSRj-5p7Cqc3iHkEIG8Y4gjzDCFVUhMNhCli-MflvZLID4sjXoPgDos6YBTXOtqpQbVkkjWd38OMev9lnjUkM3DB3LH0vy4go12RdyYYYhg_gcTivET4wmQ96MEhAnUKZ4jGgsSOGgHUn-1XxjGhSjdf9aKmSjID1OsBMhcr5H11gilQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+                 "vicinity" : "4758 West El Camino Real, Los Altos"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 37.406259,
+                       "lng" : -122.111114
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.4075395802915,
+                          "lng" : -122.1095842197085
+                       },
+                       "southwest" : {
+                          "lat" : 37.4048416197085,
+                          "lng" : -122.1122821802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "f950b551ba390daa3695f0f6c31e744a9acab546",
+                 "name" : "Integrate Performance Fitness",
+                 "opening_hours" : {
+                    "exceptional_date" : [],
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1149,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107404190306152556506/photos\"\u003eIntegrate Performance Fitness\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CoQBdwAAADJwR5o7qqfmjRqNQzivF7LOTWbMJ6XHIDbfe-QhaoYyrkDCGZPugBk8aJBjNAFxU7uNhEO4idaOkAOKL4m3nchp-bSX_2PZQTaXOpEJFXZ2XpRz-bzjwX34C8BLqC9xQuTs-B6N-AAdFGwX0o5S9jECG_r4WbAzJQi4KgGuHmPiEhDSHOjsI9x7CITe2tBYeWOZGhRqiEzRVvo5HUc62dQLDq9jufNVsQ",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJiU1OEZ6wj4ARTImo3HrGzvQ",
+                 "reference" : "CmRSAAAA1yq9ScneoV1N25wK_89KNu3Y_q7tYJleZJsCcGC9DfKZB1uQa5ZJRXdEXBKbz41SPJBQrfw26sbSoGvVQVScjQtdB7y0nDQRG0XmXR3BcsyR93oyYLGMjgSB_GdhoU1_EhBHIRkvNo86GqP7bKwF0dUYGhRXs4n5wpcCesxt1dc8IfRid4bt3A",
+                 "scope" : "GOOGLE",
+                 "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+                 "vicinity" : "298 San Antonio Road #300, Mountain View"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 37.40425079999999,
+                       "lng" : -122.1131109
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.40539998029149,
+                          "lng" : -122.1119623197085
+                       },
+                       "southwest" : {
+                          "lat" : 37.4027020197085,
+                          "lng" : -122.1146602802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "e33afa03e8e1c00716ca9d8bd86f9bf77bef6cc1",
+                 "name" : "Integrate Performance Fitness",
+                 "place_id" : "ChIJL6v1zJ2wj4ARD6JKO96gxYY",
+                 "rating" : 5,
+                 "reference" : "CmRSAAAA2eeuVo3d8wKKPNFQ7tLhCgLwMz8ZNoqcrOex-KUC89W9oeySnjL49D7tHZVgc6q5ZnKhpBWfukT1bpr7G9ldEllUmwYmUGj5krpalo0CdgplBmgZ64dAUzHof_gXsz8nEhCz_zYQ7wUXkU_8NxtFk4kAGhQWLjcy3WA1CBibN3FkPTSVRxmrNA",
+                 "scope" : "GOOGLE",
+                 "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+                 "vicinity" : "2624 Fayette Drive D, Mountain View"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 37.406259,
+                       "lng" : -122.111114
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.4075395802915,
+                          "lng" : -122.1095842197085
+                       },
+                       "southwest" : {
+                          "lat" : 37.4048416197085,
+                          "lng" : -122.1122821802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "8c235a29fe417c1b6cd89b83d35ac93168a16724",
+                 "name" : "Bay Area Fitness and Nutrition",
+                 "photos" : [
+                    {
+                       "height" : 1000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105268688481202576749/photos\"\u003eBay Area Fitness and Nutrition\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CoQBdwAAALcjrv1S9CoUMuw1dcppuwuGffaffSH9GpdwFfeolnDosHukrtRrALhw3G6cM8QZVzyDNfCjRi8uKzOvODuK3wxeKfe1m_-C6jUVm3LUZH3gfcqLZi1WkvpL0DofSMv0THvPKRiQKZL1MmIOPPdy9XIEk1ylGeiKBuuA4uiNEenQEhApnrQkLqGr6TFX_9Ou03R7GhQIoZKaKlag62Yhw3g10vDh1LCT8A",
+                       "width" : 1000
+                    }
+                 ],
+                 "place_id" : "ChIJiU1OEZ6wj4ARb89H3-t5JG8",
+                 "reference" : "CmRRAAAASUdI3k2nSQSnff9o8SA-v7xUKG59zOSsqTvs-gbXFu5RGDrhag0vQmXyHKP7Jeyn3WrOUji1QMOp093iMU700LVLlpMs71JSmy57uSiQMPH9NpROKvOPPGTOkdUSeYX9EhDh_Swe7Peos--u8g5OXNYyGhSXPNwun9p7rRzXi5zvt7OPAtUN3w",
+                 "scope" : "GOOGLE",
+                 "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+                 "vicinity" : "Mountain View, CA 94040, 298 San Antonio Road #300, Mountain View"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Fri, 24 Feb 2017 21:18:07 GMT
+recorded_with: VCR 3.0.3
